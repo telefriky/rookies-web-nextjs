@@ -4,17 +4,22 @@ import Link from "next/link";
 import styles from "./links.module.css";
 import NavLink from "./navLink/navLink";
 //import { handleLogout } from "@/lib/action";
+import LanguageChanger from "@/components/locales/LanguageChanger";
+//import { useTranslation } from "react-i18next";
 
 const links = [
   {
-    title: "Home",
+    key: 'menu-incio',
+    title: "Inicio",
     path: "/",
   },
   {
+    key: 'menu-elclub',
     title: "El club",
     path: "/about",
   },
   {
+    key: 'menu-contactar',
     title: "Contactar",
     path: "/contact",
   },
@@ -27,6 +32,8 @@ const links = [
 const Links = ({session}) => {
   const [open, setOpen] = useState(false);
 
+  //const {t} = useTranslation()
+
   // TEMPORARY
   // const session = true;
   // const isAdmin = true;
@@ -35,9 +42,9 @@ const Links = ({session}) => {
     <div className={styles.container}>
       <div className={styles.links}>
         {links.map((link) => (
-          <NavLink item={link} key={link.title} />
+          <NavLink key={link.key} item={link}  />
         ))}
-        {session?.user ? (
+        {/* {session?.user ? (
           <>
             {session.user?.isAdmin && <NavLink item={{ title: "Admin", path: "/admin" }} />}
             <form action={handleLogout}>
@@ -46,10 +53,8 @@ const Links = ({session}) => {
           </>
         ) : (
           <NavLink item={{ title: "Login", path: "/login" }} />
-        )}
-        <Link href="/" locale="es">ES&nbsp;</Link>
-        <Link href="/" locale="en">EN&nbsp;</Link>
-        <Link href="/" locale="ca">CA&nbsp; </Link>
+        )} */}
+          <LanguageChanger/>
       </div>
       <Image
         className={styles.menuButton}
@@ -62,7 +67,7 @@ const Links = ({session}) => {
       {open && (
         <div className={styles.mobileLinks}>
           {links.map((link) => (
-            <NavLink item={link} key={link.title} />
+            <NavLink item={link} key={link.key} />
           ))}
         </div>
       )}

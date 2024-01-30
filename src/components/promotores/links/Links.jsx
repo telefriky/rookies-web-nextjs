@@ -88,7 +88,7 @@ const PromoLinks = () => {
         {promotores.map((item) => (
           <div>
             <Link
-              id={item.alt}
+              key={item.alt}
               href={item.href}
               className={styles.imgContainer}
             >
