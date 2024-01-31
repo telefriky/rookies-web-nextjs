@@ -1,5 +1,3 @@
-"use client";
-
 import styles from "./links.module.css";
 import Link from "next/link"
 import Image from "next/image";
@@ -8,6 +6,7 @@ import Image from "next/image";
 
 const promotores = [
   {
+    key: '001',
     alt: "Ajuntament de Barberà del Vallès",
     src: "/logo_ayuntamiento2.png",
     href: "https://www.bdv.cat/",
@@ -15,6 +14,7 @@ const promotores = [
     height: 100,
   },
   {
+    key: 'b002',
     alt: "Immotesa",
     src: "/Inmotesa.png",
     href: "https://www.immotesa.com/",
@@ -22,6 +22,7 @@ const promotores = [
     height: 100,
   },
   {
+    key: '003',
     alt: "Lleure.Cat",
     src: "/lleure.png",
     href: "https://lleure.cat/",
@@ -29,9 +30,10 @@ const promotores = [
     height: 100,
   },
   {
+    key: '004',
     alt: "la coop",
-    src: "",
-    href: "",
+    src: "/la_coop.png",
+    href: "https://lacoop.cat/",
     width: 150,
     height: 100,
   },
@@ -85,24 +87,26 @@ const PromoLinks = () => {
 
   return (
     <div className={styles.container}>
-        {promotores.map((item) => (
-          <div>
-            <Link
-              key={item.alt}
-              href={item.href}
-              className={styles.imgContainer}
-            >
-              <Image
-                className={styles.img}
-                src={item.src}
-                alt={item.alt}
-                width={item.width}
-                height={item.height}
-              />
-            </Link>
-          </div>
-        ))}
-      </div>
+      {promotores.map((item) => (
+        <div>
+          <Link
+            key={`colab${item.key}` }
+            href={item.href}
+            className={styles.imgContainer}
+            target="_blank"
+          >
+            <Image
+            key={`colabimg${item.key}` }
+            className={styles.img}
+              src={item.src}
+              alt={item.alt}
+              width={item.width}
+              height={item.height}
+            />
+          </Link>
+        </div>
+      ))}
+    </div>
   );
 };
 

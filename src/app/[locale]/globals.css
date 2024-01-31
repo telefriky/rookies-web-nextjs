@@ -19,11 +19,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: var(--);
 }
 
 body {
   background-color: var(--bg);
-  color: var(--text);
 }
 
 a {
@@ -40,6 +40,26 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.fill {
+  object-fit: fill;
+}
+
+.contain {
+  object-fit: contain;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.none {
+  object-fit: none;
+}
+
+.scale-down {
+  object-fit: scale-down;
 }
 
 @media (max-width: 1536px) {
@@ -84,3 +104,4 @@ a {
     width: 380px;
   }
 }
+

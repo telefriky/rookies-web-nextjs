@@ -33,7 +33,7 @@ const Home = async ({ params: { locale } }) => {
 
         </div>
         <div className={styles.imgContainer}>
-          <Image src="/hero.gif" alt="" fill className={styles.heroImg} />
+          <Image src="/home_hero.jpg" alt="" width={500} height={500} className={styles.heroImg} />
         </div>
 
       </div>

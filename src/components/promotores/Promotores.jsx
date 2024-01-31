@@ -11,7 +11,9 @@ const Promotores = () => {
   return (
     <div className={styles.container}>
       <div className={styles.textContainer}>
-        promotores test
+        <p className={styles.texto} >
+        Nuestros promotores:
+        </p>
       </div>
       <PromoLinks />
     </div>
