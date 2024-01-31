@@ -1,7 +1,8 @@
 .links {
   display: flex;
   align-items: center;
-  gap: 10px;
+  column-gap: 2vw;
+
 }
 
 .logout {
@@ -14,6 +15,27 @@
 .mobileLinks {
   display: none;
 }
+
+
+/*-----------------------------------------------*/
+@media (max-width: 1536px) {}
+
+@media (max-width: 1366px) {}
+
+@media (max-width: 1280px) {
+  .links {
+    display: flex;
+    align-items: center;
+    column-gap: 0vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .links {
+    gap: 0;
+  }
+}
+
 
 @media (max-width: 768px) {
   .links {
@@ -39,3 +61,12 @@
     gap: 10px;
   }
 }
+
+/*
+@media (max-width: 640px) {
+
+}
+
+@media (max-width: 475px) {
+} 
+*/
