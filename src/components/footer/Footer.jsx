@@ -32,9 +32,15 @@ const Footer = () => {
           </div>
 
           <div className={styles.bloqueiconos}>
-            <FaTwitter className={styles.icono} />
-            <FaFacebook className={styles.icono} />
-            <FaInstagram className={styles.icono} />
+            <Link href="https://www.instagram.com/barbera_rookies/" target="_blank" >
+              <FaInstagram className={styles.icono} />
+            </Link>
+            <Link href="https://www.facebook.com/barberarookiescfa" target="_blank" >
+              <FaFacebook className={styles.icono} />
+            </Link>
+            {/* <Link href="https://www.instagram.com/barbera_rookies/" target="_blank" >
+              <FaTwitter className={styles.icono} />
+            </Link> */}
           </div>
 
           <div className={styles.bloque}>
@@ -62,11 +68,11 @@ const Footer = () => {
               className={styles.link}>
               Aviso legal y condiciones de uso</Link><br />
           </div>
-        </div>
-      </footer>
+        </div >
+      </footer >
       <div className={`${styles.containercopy} ${fuente.className}`}>
         <div className={styles.container1copy}>
-            <div className={styles.text}>Copyright © 2002-{year}</div>
+          <div className={styles.text}>Copyright © 2002-{year}</div>
         </div>
       </div>
     </>

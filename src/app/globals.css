@@ -11,7 +11,8 @@
   --bgSoft: var(--fondoblancosoft);
   --text: var(--gris);
   --textSoft: var(--grissoft);
-  --btn: var(--azul);;
+  --btn: var(--azul);
+  ;
 
 }
 
@@ -41,6 +42,23 @@ a {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
+}
+
+.contenido {
+  flex: 3 1;
+  display:flex;
+  align-items: center;
+}
+
+.promotores {
+  flex: 0 0;
+}
+
+.notfound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 10;
 }
 
 .fill {
@@ -101,9 +119,9 @@ a {
     width: 475px;
   }
 }
+
 @media (max-width: 475px) {
   .container {
     width: 380px;
   }
 }
-

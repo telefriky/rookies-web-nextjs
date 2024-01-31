@@ -1,23 +1,12 @@
 .container{
-  height: 150px;
+  min-height: 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 50px 0 50px 0;
 }
 
-.logo{
-  /* font-size: 30px; */
-  /* font-weight: bold;  */
-  width: 250px;
-  height: 85px;
-  flex: 1;
-  position: relative;
-}
-
 .imgContainer {
   flex: 1;
   position: relative;
-
 }
-

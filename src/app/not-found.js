@@ -1,10 +1,11 @@
+import './globals.css'
 
 function NotFound() {
 
     return (
-        <div>
+        <div className="notfound">
             <h1>
-                Page Not Found - custom
+                Página no existe
             </h1>
         </div>
     );

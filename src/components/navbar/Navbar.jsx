@@ -15,9 +15,9 @@ const Navbar =  () => {
 
   //const session = await auth();
 
-  const f = 0.75
-  const w = 600 * f; // 400
-  const h = 118 * f; // 88.5
+  const f = 0.75;
+  const w = 600 * f;
+  const h = 118 * f;
 
   return (
     <div className={styles.container}>

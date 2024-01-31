@@ -20,8 +20,12 @@ export default function RootLayout({ children, params }) {
       <body className={fuente.className}>
         <div className="container">
           <Navbar />
-          {children}
-          <Promotores />
+          <div className="contenido">
+            {children}
+          </div>
+          <div className="promotores">
+            <Promotores />
+          </div>
         </div>
         <Footer />
       </body>
