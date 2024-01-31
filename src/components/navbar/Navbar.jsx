@@ -11,7 +11,7 @@ import styles from "./navbar.module.css"
 // const { pathname, asPath, query } = router
 // change just the locale and maintain all other route information including href's query
 
-const Navbar = async () => {
+const Navbar =  () => {
 
   //const session = await auth();
 

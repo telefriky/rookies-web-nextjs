@@ -6,7 +6,7 @@ import styles from "./Link.module.css";
 import { usePathname } from "next/navigation";
 
 const PromoLink = ({ item }) => {
-
+  const { pathName } = usePathname()
   return (
     <Link
       href={item.href}

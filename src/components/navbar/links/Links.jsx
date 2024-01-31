@@ -3,9 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./links.module.css";
 import NavLink from "./navLink/navLink";
-//import { handleLogout } from "@/lib/action";
-import LanguageChanger from "@/components/locales/LanguageChanger";
-//import { useTranslation } from "react-i18next";
 
 const links = [
   {
@@ -32,8 +29,6 @@ const links = [
 const Links = ({session}) => {
   const [open, setOpen] = useState(false);
 
-  //const {t} = useTranslation()
-
   // TEMPORARY
   // const session = true;
   // const isAdmin = true;
@@ -44,7 +39,7 @@ const Links = ({session}) => {
         {links.map((link) => (
           <NavLink key={link.key} item={link}  />
         ))}
-        {/* {session?.user ? (
+        {session?.user ? (
           <>
             {session.user?.isAdmin && <NavLink item={{ title: "Admin", path: "/admin" }} />}
             <form action={handleLogout}>
@@ -53,8 +48,7 @@ const Links = ({session}) => {
           </>
         ) : (
           <NavLink item={{ title: "Login", path: "/login" }} />
-        )} */}
-          <LanguageChanger/>
+        )}
       </div>
       <Image
         className={styles.menuButton}

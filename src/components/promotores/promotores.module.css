@@ -1,33 +1,20 @@
 .container{
-  height: 100px;
   display: flex;
   flex: 1;
   align-items: center;
-  /* justify-content: space-between; */
+  justify-content: center;
+  justify-content:space-around; 
+  /* flex-grow: 1; */
   color: gray;
   background-color: white;
   gap:30px;
+  padding: 2rem;
 }
 
 .text{
   font-size: 12px;
 }
 
-.imgContainer {
-  flex: 1;
-  position: relative;
-  /* border: 1px solid; */
-}
-
-.textContainer {
-  /* flex: 1; */
-  position: relative;
-  /* border: 1px solid; */
-}
-
-.texto{
-  font-weight: 800;
-}
 
 @media (max-width:768px){
   .container{
