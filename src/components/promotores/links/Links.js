@@ -9,6 +9,8 @@ const escalarPorAltura = (alturareal, alturaDeseada) => {
   return (alturareal / alturaDeseada);
 }
 
+const altoLogoPromotor = 80;
+
 const promotores = [
   {
     key: '001',
@@ -17,7 +19,7 @@ const promotores = [
     href: "https://www.bdv.cat/",
     width: 152,
     height: 152,
-    ratio: escalarPorAltura(100, 152)
+    ratio: escalarPorAltura(altoLogoPromotor, 152)
   },
   {
     key: 'b002',
@@ -26,7 +28,7 @@ const promotores = [
     href: "https://www.immotesa.com/",
     width: 819 ,
     height: 334,
-    ratio: escalarPorAltura(100, 334)
+    ratio: escalarPorAltura(altoLogoPromotor, 334)
   },
   {
     key: '003',
@@ -35,7 +37,7 @@ const promotores = [
     href: "https://lleure.cat/",
     width: 443,
     height: 315,
-    ratio: escalarPorAltura(100, 315)
+    ratio: escalarPorAltura(altoLogoPromotor, 315)
   },
   {
     key: '004',
@@ -44,7 +46,7 @@ const promotores = [
     href: "https://lacoop.cat/",
     width: 493,
     height: 261 ,
-    ratio: escalarPorAltura(100, 261)
+    ratio: escalarPorAltura(altoLogoPromotor, 261)
   },
   {
     key: '004',
@@ -53,7 +55,7 @@ const promotores = [
     href: "https://lacoop.cat/",
     width: 1124,
     height: 1032 ,
-    ratio: escalarPorAltura(100, 1032)
+    ratio: escalarPorAltura(altoLogoPromotor, 1032)
   },
 ];
 

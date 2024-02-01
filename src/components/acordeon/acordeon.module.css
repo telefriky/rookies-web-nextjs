@@ -1,0 +1,77 @@
+.acordeon__boton{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/*-----------------------------------------------*/
+/* @media (max-width: 1536px) {
+  .container {
+    width: 1366px;
+  }
+} */
+
+@media (max-width: 1366px) {
+  /* .container {
+    width: 1280px;
+  } */
+}
+
+@media (max-width: 1280px) {
+
+}
+
+@media (max-width: 1024px) {
+
+  
+}
+/*
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+  }
+
+  .container1 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .containercopy {
+    display: flex;
+    align-items: center;
+    background-color: var(--textSoft);
+    color: white;
+    padding-bottom: 6rem;
+    border: none;
+    width: 100vw;
+  }
+
+  .container1copy {
+    width: 100vw;
+    margin: auto;
+    *max-width: 1536px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: none;
+  }
+
+}
+
+@media (max-width: 640px) {
+  .container {
+     width: 475px; 
+  }
+}
+
+@media (max-width: 475px) {
+  .container {
+     width: 380px; 
+  }
+} */
