@@ -35,21 +35,21 @@ a {
 }
 
 .container {
-  max-width: 1536px;
   width: 1536px;
   min-height: 90vh;
   margin: auto;
   padding-left: 50px;
-  padding-right: 50px;
+  padding-right: 50px; 
   min-height: 80vh;
   display: flex;
   flex-direction: column;
 }
 
 .contenido {
-  flex: 3 1;
-  display:flex;
+  flex: 1;
+  display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .promotores {

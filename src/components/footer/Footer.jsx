@@ -63,10 +63,10 @@ const Footer = () => {
             <Link href="/privacidad"
               className={styles.link}>
               Política privacidad & Cookies
-            </Link><br />
+            </Link>
             <Link href="/avisolegal"
               className={styles.link}>
-              Aviso legal y condiciones de uso</Link><br />
+              Aviso legal y condiciones de uso</Link>
           </div>
         </div >
       </footer >

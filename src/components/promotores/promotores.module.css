@@ -8,7 +8,7 @@
   color: gray;
   background-color: white;
   gap:30px;
-  padding: 2rem;
+  padding: 2rem 0 2rem 0;
 }
 
 .text{
@@ -25,9 +25,7 @@
 } */
 
 @media (max-width: 1366px) {
-  .container {
-    padding: 0.5rem;
-  }
+
 }
 
 @media (max-width: 1280px) {

@@ -1,21 +1,83 @@
 .container {
   display: flex;
-  gap: 100px;
+  gap: 25px;
+  padding: 0 5%;
+  flex-direction: column;
+  justify-items: flex-start;
 }
 
-.textContainer {
+.textContainer, .textContainerIzq {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.textContainerIzq {
+  text-align: left;
+}
+
+.categContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  
+}
+
+.categBloque{
+  display: flex;
+  padding: 1rem;
+  width: 500px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.otrosContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem 3rem;
+}
+.icono {
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  fill: var(--azul) ;
+  font-size: 35px;
+  justify-content: center;
+}
+
+.ul{
+  /* list-style: none; */
+  padding-left: 20px; 
+}
+
+.li{
+  text-decoration: none;
+  font-size: 20px;
+  padding:0.4rem 0;
+}
+
+.header{
+  font-size: 60px;
 }
 
 .title{
-  font-size: 96px;
+  font-size: 30px;
+}
+
+.subtitle{
+  font-size: 24px;
 }
 
 .desc{
   font-size: 20px;
+  padding: 1rem 0;
+  line-height: 1.5;
 }
 
 .buttons{
@@ -41,24 +103,46 @@
   position: relative;
 }
 
-@media (max-width: 1024px) {
-  .container {
-    flex-direction: column;
-    text-align: center;
-  }
 
-  .buttons{
-    justify-content: center;
+
+/*-----------------------------------------------*/
+/* @media (max-width: 1536px) {
+  .container {
+    width: 1366px;
   }
+} */
+
+@media (max-width: 1366px) {
+  .categBloque{
+    width: 35vw;
+  }
+}
+
+@media (max-width: 1280px) {
+
+}
+
+
+@media (max-width: 1024px) {
 }
 
 @media (max-width: 768px) {
-  .title {
-    font-size: 64px;
+  .categContainer{
+    align-items: center;
+    flex-grow: 1;
+    flex-direction: column;
   }
-
-  .brands{
-    width: 100%;
+  .categBloque{
+    width: 80%;
   }
 }
 
+/*
+@media (max-width: 768px) {
+}
+
+@media (max-width: 640px) {
+}
+
+@media (max-width: 475px) {
+} */

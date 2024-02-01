@@ -46,6 +46,15 @@ const promotores = [
     height: 261 ,
     ratio: escalarPorAltura(100, 261)
   },
+  {
+    key: '004',
+    alt: "la coop",
+    src: "/monica_escriba.jpeg",
+    href: "https://lacoop.cat/",
+    width: 1124,
+    height: 1032 ,
+    ratio: escalarPorAltura(100, 1032)
+  },
 ];
 
 

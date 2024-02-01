@@ -1,6 +1,7 @@
 .container {
   display: flex;
-  gap: 100px;
+  gap: 20px;
+  margin:auto;
 }
 
 .textContainer {
@@ -10,8 +11,10 @@
   gap: 50px;
 }
 
+
 .title{
   font-size: 60px;
+  flex:1;
 }
 
 .desc{
