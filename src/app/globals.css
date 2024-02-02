@@ -23,6 +23,7 @@
   color: #000000;
   border: none;
   /* background-color: #1378bb; */
+  /* overflow: hidden; */
 }
 
 body {
@@ -39,7 +40,7 @@ a {
   min-height: 90vh;
   margin: auto;
   padding-left: 50px;
-  padding-right: 50px; 
+  padding-right: 50px;
   min-height: 80vh;
   display: flex;
   flex-direction: column;
@@ -108,27 +109,30 @@ a {
 
 @media (max-width: 1024px) {
   .container {
-    width: 100vw; 
-  }
-}
-/*
-@media (max-width: 768px) {
-  .container {
-    width: 640px;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    width: 80vw;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
+@media (max-width: 768px) {}
+
+/*
 @media (max-width: 640px) {
   .container {
     width: 475px;
   }
 }
+*/
 
 @media (max-width: 475px) {
   .container {
-    width: 380px;
+    background-color: aqua;
+    width: 100vw;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+
   }
-} 
-*/
+}

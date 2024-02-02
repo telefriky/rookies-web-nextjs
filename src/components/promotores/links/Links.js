@@ -49,7 +49,7 @@ const promotores = [
     ratio: escalarPorAltura(altoLogoPromotor, 261)
   },
   {
-    key: '004',
+    key: '005',
     alt: "la coop",
     src: "/monica_escriba.jpeg",
     href: "https://lacoop.cat/",
