@@ -7,7 +7,7 @@ import { FaRegChessKing, FaRegChessQueen, FaRegChessRook, FaRegChessKnight, FaFo
 // import AccordionSummary from '@mui/material/AccordionSummary';
 
 //import Acordeon from "@components/acordeon/Acordeon";
-import Acordeon from "@/components/acordeon/Acordeon";
+import Acordeon from "@components/acordeon/Acordeon";
 
 export const metadata = {
   title: "Sobre nosotros",
@@ -114,33 +114,6 @@ const AboutPage = () => {
             </ul>
           </div>
         </div>
-
-        {/* <Accordion disableGutters={true} >
-          <AccordionSummary id="panel-header" aria-controls="panel-content">
-            <h3 className={styles.acordeon_title}>Nuestro mayor valor, son las personas...</h3>
-          </AccordionSummary>
-          <AccordionDetails>
-            <p className={styles.desc}></p>Todas las que forman el club, todos los jugadores y entrenadores que luchan y sobre todo toda la afición que nos mueve<p />
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary id="panel-header" aria-controls="panel-content">
-            <h3 className={styles.acordeon_title}>Tu pasión, nuestro objetivo</h3>
-          </AccordionSummary>
-          <AccordionDetails>
-            Queremos que te emociones, que sufras, que grites, … pero sobretodo que disfrutes con cada punto.
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary id="panel-header" aria-controls="panel-content">
-            <h3 className={styles.acordeon_title}>Forma parte del proyecto</h3>
-          </AccordionSummary>
-          <AccordionDetails>
-            Nos haces mucha falta, este club lo mueven las personas, da igual la posición que ocupes, espectador, padre, entrenador, asistente, ATS, tesorero, directivo, jugador….  tenemos un sitio para todos vosotros
-          </AccordionDetails>
-        </Accordion> */}
 
         <div className={styles.textContainerIzq}>
           <Acordeon titulo = "Nuestro mayor valor, son las personas...">
