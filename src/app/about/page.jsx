@@ -6,8 +6,8 @@ import { FaRegChessKing, FaRegChessQueen, FaRegChessRook, FaRegChessKnight, FaFo
 // import AccordionDetails from '@mui/material/AccordionDetails';
 // import AccordionSummary from '@mui/material/AccordionSummary';
 
-
-import Acordeon from "@components/acordeon/Acordeon";
+//import Acordeon from "@components/acordeon/Acordeon";
+import Acordeon from "@/components/acordeon/Acordeon";
 
 export const metadata = {
   title: "Sobre nosotros",
