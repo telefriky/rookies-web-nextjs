@@ -6,7 +6,7 @@ export const metadata = {
   description: "Sobre nosotros",
 };
 
-const AboutPage = () => {
+const AboutPage1 = () => {
 
   // console.log("lets check where it works")
   return (
@@ -82,4 +82,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default AboutPage1;
