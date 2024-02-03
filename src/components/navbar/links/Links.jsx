@@ -26,6 +26,9 @@ const links = [
   // },
 ];
 
+const handleLogout = () => {
+  return
+}
 const Links = ({session}) => {
   const [open, setOpen] = useState(false);
 

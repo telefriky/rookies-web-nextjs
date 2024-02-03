@@ -1,10 +1,10 @@
-import Image from "next/image";
+//import Image from "next/image";
 import styles from "./about.module.css";
 import { FaRegChessKing, FaRegChessQueen, FaRegChessRook, FaRegChessKnight, FaFootball } from 'react-icons/fa6';
 
-import Accordion from '@mui/material/Accordion';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import AccordionSummary from '@mui/material/AccordionSummary';
+// import Accordion from '@mui/material/Accordion';
+// import AccordionDetails from '@mui/material/AccordionDetails';
+// import AccordionSummary from '@mui/material/AccordionSummary';
 
 
 import Acordeon from "@components/acordeon/Acordeon";
@@ -30,7 +30,7 @@ const AboutPage = () => {
         <div className={styles.textContainerIzq}>
           <h1 className={styles.title}>Nuestra historia</h1>
           <p className={styles.desc}>
-            En 2002 un grupo de 6 estudiantes de 3º de ESO del IES Can Planas de Barberá del Vallés (Barcelona) decidió juntarse para practicar, sin tener apenas ni idea, Flag Football, una modalidad sin contacto del fútbol americano. La principal motivación que los llevó a juntarse y crear un equipo fue la existencia del equipo profesional Barcelona Dragons y la compra del libro "Football for Dummies". Durante el curso 2001-02, ese grupo de amigos se mantuvo jugando a Football Flag, y paralelamente fue tratando de ponerse en contacto con el equipo de promoción de los Barcelona Dragons, con la finalidad de conseguir algún tipo de apoyo. En mayo de 2002 la llegada de Roberto Torrecillas llevó al grupo de amigos a jugar su primer amistoso de Flag Football. Finalmente el equipo se fundó oficialmente el 21 de diciembre de 2002 participando poco tiempo después en el torneo de Navidad de la Federación Catalana en categoría cadete.
+            En 2002 un grupo de 6 estudiantes de 3º de ESO del IES Can Planas de Barberá del Vallés (Barcelona) decidió juntarse para practicar, sin tener apenas ni idea, Flag Football, una modalidad sin contacto del fútbol americano. La principal motivación que los llevó a juntarse y crear un equipo fue la existencia del equipo profesional Barcelona Dragons y la compra del libro &quot;Football for Dummies&quot;. Durante el curso 2001-02, ese grupo de amigos se mantuvo jugando a Football Flag, y paralelamente fue tratando de ponerse en contacto con el equipo de promoción de los Barcelona Dragons, con la finalidad de conseguir algún tipo de apoyo. En mayo de 2002 la llegada de Roberto Torrecillas llevó al grupo de amigos a jugar su primer amistoso de Flag Football. Finalmente el equipo se fundó oficialmente el 21 de diciembre de 2002 participando poco tiempo después en el torneo de Navidad de la Federación Catalana en categoría cadete.
           </p>
         </div>
         <div className={styles.textContainerIzq}>
